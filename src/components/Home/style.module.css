@@ -1,0 +1,46 @@
+.video {
+  clip-path: inset(0);
+}
+
+.logo.svg{
+    color: white;
+}
+
+.navLink {
+  display: block;
+}
+
+.links a {
+  color: white;
+}
+
+.letterClip {
+  display: inline-block;
+  position: relative;
+  height: 1em;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.letterText {
+  display: block;
+  height: 1em;
+  line-height: inherit;
+  white-space: pre;
+}
+
+.nextLetter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.headingLine {
+  display: block;
+  white-space: pre;
+}
+
+.headingCharacter {
+  display: inline-block;
+}
